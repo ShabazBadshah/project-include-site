@@ -1,5 +1,6 @@
-Project Include Site 2019/2020
-=============================
+![pi-logo](./assets/pi-logo-with-name.jpeg)
+
+# Project Include Site 2019/2020 
 
 ## Site Goals
 
@@ -22,11 +23,11 @@ To use this starter project, you'll need the following things installed on your 
 
 ## Local Install
 
-1. Open a shell and clone repo via ```git clone https://github.com/shakyShane/jekyll-gulp-sass-browser-sync.git```
+1. Open a shell and clone repo via ```git clone https://github.com/ShabazBadshah/project-include-site.git```
 2. Change directories to where the repo has been cloned via ```cd /path/to/repo```. This will be your current working directory (CWD).
 3. Run ```npm install``` in the CWD. This will install all project dependencies
 4. Run ```gulp``` in the CWD. This will run the browser-sync server
 
 ## Attributions
 
-The initial Jekyll site scaffolding and boilerplate was forked from ShakyShane's [jekyll-gulp-sass-browser-sync](https://github.com/shakyShane/jekyll-gulp-sass-browser-sync)
+- The initial Jekyll site scaffolding and boilerplate was forked from ShakyShane's [jekyll-gulp-sass-browser-sync](https://github.com/shakyShane/jekyll-gulp-sass-browser-sync)
