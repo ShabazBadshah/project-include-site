@@ -1,13 +1,17 @@
-jekyll-gulp-sass-browser-sync
-=============================
+![pi-logo](./assets/pi-logo-with-name.jpeg)
 
-A starter project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
+# Project Include Site 2019/2020 
 
-Here's a 1.5min [screencast](http://quick.as/pvrslgx) showing what you get.
+## Site Goals
 
-And here's a GIF showing the CSS injecting.
+This is the official Project Include (PI) site for 2019/2020 (redesigned in [Jekyll](http://jekyllrb.com/)) which focuses on the following four objectives:
 
-![GIF](http://f.cl.ly/items/373y2E0e0i2p0E2O131g/test-gif.gif)
+1. To provide boost credibility, increase stakeholder/partner interest, and increase brand presence
+2. To provide a modern UX/UI experience to visitors
+3. Introduce Jekyll CMS support for updating posts and site info for non-technical individuals
+4. Additional performance improvements to run on lower end hardware
+
+This site is an enhancement of the existing [PI site](https://projectinclude.netlify.com/)
 
 ## System Preparation
 
@@ -17,36 +21,13 @@ To use this starter project, you'll need the following things installed on your 
 2. [NodeJS](http://nodejs.org) - use the installer.
 3. [GulpJS](https://github.com/gulpjs/gulp) - `$ npm install -g gulp` (mac users may need sudo)
 
-## Local Installation
+## Local Install
 
-1. Clone this repo, or download it into a directory of your choice.
-2. Inside the directory, run `npm install`.
+1. Open a shell and clone repo via ```git clone https://github.com/ShabazBadshah/project-include-site.git```
+2. Change directories to where the repo has been cloned via ```cd /path/to/repo```. This will be your current working directory (CWD).
+3. Run ```npm install``` in the CWD. This will install all project dependencies
+4. Run ```gulp``` in the CWD. This will run the browser-sync server
 
-## Usage
+## Attributions
 
-**development mode**
-
-This will give you file watching, browser synchronisation, auto-rebuild, CSS injecting etc etc.
-
-```shell
-$ gulp
-```
-
-**jekyll**
-
-As this is just a Jekyll project, you can use any of the commands listed in their [docs](http://jekyllrb.com/docs/usage/)
-
-## Deploy with Gulp
-
-You can easily deploy your site build to a gh-pages branch. First, follow the instructions at [gulp-gh-pages](https://github.com/rowoot/gulp-gh-pages) to get your branch prepared for the deployment and to install the module. Then, in `gulpfile.js` you'll want to include something like the code below. `gulp.src()` needs to be the path to your final site folder, which by default will be `_site`. If you change the `destination` in your `_config.yml` file, be sure to reflect that in your gulpfile.
-
-
-
-```javascript
-var deploy = require("gulp-gh-pages");
-
-gulp.task("deploy", ["jekyll-build"], function () {
-    return gulp.src("./_site/**/*")
-        .pipe(deploy());
-});
-```
+- The initial Jekyll site scaffolding and boilerplate was forked from ShakyShane's [jekyll-gulp-sass-browser-sync](https://github.com/shakyShane/jekyll-gulp-sass-browser-sync)

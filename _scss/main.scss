@@ -2,6 +2,9 @@
 @import "syntax";
 @import "colours";
 
+* {
+    font-family: "Roboto";
+}
 
 /* roboto-300 - latin */
 @font-face {
@@ -70,6 +73,11 @@
          url('../fonts/roboto-v20-latin-500.svg#Roboto') format('svg'); /* Legacy iOS */
   }
 
+// If the header is fixed at the top of the page, this pushdown will move all content on the page down so that it is not covered by the header
+div.fixed-header-pushdown {
+      margin-top: 95px;
+}
+
 body {
     background: white;
     display: flex;
@@ -82,12 +90,12 @@ div.site {
     flex-direction: column;
     align-items: center;
     position: relative;
-    width: auto;
+    width: 68em;
     background-color: lightcyan;
 }
 
 div#header-container {
-    position: sticky;
+    position: fixed;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -121,7 +129,6 @@ h1#site-title {
     margin-left: 10px;
     white-space: nowrap;
     font-weight: 500;
-    font-family: "Roboto";
     text-transform: capitalize;
     text-decoration: underline;
     text-decoration-color: $project-include-light-red;
@@ -146,7 +153,6 @@ li#social-media-list-item {
     font-size: 1em;
     padding-right: 20px;
     white-space: nowrap;
-    font-family: "Roboto";
     font-weight: 300;
 
     a {
@@ -180,5 +186,21 @@ li#nav-list-item {
 
     &:last-child {
         padding-right: 0;
+    }
+}
+
+div#major-info-text-container {
+    padding: 70px;
+
+    h1#major-info-text-container--header {
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+
+    p#major-info-text-container--info {
+        font-style: italic;
+        font-weight: normal;
+        font-size: 1.2em;
+        line-height: 1.4em;
     }
 }

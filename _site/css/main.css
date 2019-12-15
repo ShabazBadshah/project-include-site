@@ -395,6 +395,9 @@ a:visited {
   color: #009999; }
 
 /* Literal.Number.Integer.Long */
+* {
+  font-family: "Roboto"; }
+
 /* roboto-300 - latin */
 @font-face {
   font-family: 'Roboto';
@@ -445,6 +448,9 @@ a:visited {
   src: local("Roboto Medium"), local("Roboto-Medium"), url("../fonts/roboto-v20-latin-500.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-v20-latin-500.woff2") format("woff2"), url("../fonts/roboto-v20-latin-500.woff") format("woff"), url("../fonts/roboto-v20-latin-500.ttf") format("truetype"), url("../fonts/roboto-v20-latin-500.svg#Roboto") format("svg");
   /* Legacy iOS */ }
 
+div.fixed-header-pushdown {
+  margin-top: 95px; }
+
 body {
   background: white;
   display: -ms-flexbox;
@@ -461,12 +467,11 @@ div.site {
   -ms-flex-align: center;
       align-items: center;
   position: relative;
-  width: auto;
+  width: 68em;
   background-color: lightcyan; }
 
 div#header-container {
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
@@ -506,7 +511,6 @@ h1#site-title {
   margin-left: 10px;
   white-space: nowrap;
   font-weight: 500;
-  font-family: "Roboto";
   text-transform: capitalize;
   text-decoration: underline;
   text-decoration-color: #FF0706; }
@@ -534,7 +538,6 @@ li#social-media-list-item {
   font-size: 1em;
   padding-right: 20px;
   white-space: nowrap;
-  font-family: "Roboto";
   font-weight: 300; }
   li#social-media-list-item a {
     text-decoration: none; }
@@ -561,3 +564,14 @@ li#nav-list-item {
   color: black; }
   li#nav-list-item:last-child {
     padding-right: 0; }
+
+div#major-info-text-container {
+  padding: 70px; }
+  div#major-info-text-container h1#major-info-text-container--header {
+    font-size: 2.5em;
+    font-weight: 500; }
+  div#major-info-text-container p#major-info-text-container--info {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.4em; }
