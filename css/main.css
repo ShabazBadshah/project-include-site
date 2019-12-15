@@ -684,3 +684,14 @@ div#major-info-text-container {
     font-weight: normal;
     font-size: 1.2em;
     line-height: 1.4em; }
+
+div#major-info-text-container {
+  padding: 70px; }
+  div#major-info-text-container h1#major-info-text-container--header {
+    font-size: 2.5em;
+    font-weight: 500; }
+  div#major-info-text-container p#major-info-text-container--info {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.4em; }
