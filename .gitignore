@@ -61,3 +61,6 @@ typings/
 .next
 
 .jekyll-cache/
+_site/
+.sass-cache/
+.jekyll-metadata
