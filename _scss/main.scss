@@ -2,7 +2,9 @@
 @import "syntax";
 @import "colours";
 
+// Components
 @import "_includes/header-component.scss";
+@import "_includes/major-info-text-component.scss";
 
 * {
     font-family: "Roboto";
@@ -94,36 +96,4 @@ div.site {
     position: relative;
     width: 68em;
     background-color: lightcyan;
-}
-
-div#major-info-text-container {
-    padding: 70px;
-
-    h1#major-info-text-container--header {
-        font-size: 2.5em;
-        font-weight: 500;
-    }
-
-    p#major-info-text-container--info {
-        font-style: italic;
-        font-weight: normal;
-        font-size: 1.2em;
-        line-height: 1.4em;
-    }
-}
-
-div#major-info-text-container {
-    padding: 70px;
-
-    h1#major-info-text-container--header {
-        font-size: 2.5em;
-        font-weight: 500;
-    }
-
-    p#major-info-text-container--info {
-        font-style: italic;
-        font-weight: normal;
-        font-size: 1.2em;
-        line-height: 1.4em;
-    }
 }
