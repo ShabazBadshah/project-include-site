@@ -6,9 +6,11 @@
 @import "includes/header-component.scss";
 @import "includes/major-info-text-component.scss";
 @import "includes/gallery-intro-component.scss";
+@import "includes/quote-card-component.scss";
 
 * {
     font-family: "Roboto";
+    color: white;
 }
 
 /* roboto-300 - latin */
@@ -80,11 +82,11 @@
 
 // If the header is fixed at the top of the page, this pushdown will move all content on the page down so that it is not covered by the header
 div.fixed-header-pushdown {
-      margin-top: 95px;
+      margin-top: 130px;
 }
 
 body {
-    background: white;
+    background: $project-include-salmon-red;
     display: flex;
     justify-content: center;
     position: relative;
@@ -96,7 +98,6 @@ div.site {
     align-items: center;
     position: relative;
     width: 68em;
-    background-color: lightcyan;
 }
 
 @media (max-width:320px)  {}
@@ -104,6 +105,11 @@ div.site {
 
 @media (max-width:1000px) { 
   div.site {
-    max-width: 90%;
+    max-width: 95%;
+    margin: 15px;
   }
- }
+
+  div.fixed-header-pushdown {
+    margin-top: 90px;
+  }
+}

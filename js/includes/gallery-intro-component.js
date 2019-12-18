@@ -5,8 +5,8 @@ var galleryItem;
 
 var appGalleryImageSrc = [
   ROOT_IMG_DIR + "2.png",
-  ROOT_IMG_DIR + "1.png",
   ROOT_IMG_DIR + "4.png",
+  ROOT_IMG_DIR + "1.png",
   ROOT_IMG_DIR + "3.png"
 ];
 

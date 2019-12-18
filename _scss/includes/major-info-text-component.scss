@@ -1,31 +1,20 @@
+
 div#major-info-text-container {
-  padding: 70px;
-
-  h1#major-info-text-container--header {
-      font-size: 2.5em;
-      font-weight: 500;
-  }
-
+  margin: 40px 0;
+  
   p#major-info-text-container--info {
       font-style: italic;
       font-weight: normal;
       font-size: 1.2em;
       line-height: 1.4em;
+      text-align: left;
   }
 }
 
-div#major-info-text-container {
-  padding: 70px;
-
-  h1#major-info-text-container--header {
-      font-size: 2.5em;
-      font-weight: 500;
-  }
-
-  p#major-info-text-container--info {
-      font-style: italic;
-      font-weight: normal;
-      font-size: 1.2em;
-      line-height: 1.4em;
-  }
+// TODO Common element, move out
+h1#major-info-text-container--header {
+  font-size: 2.5em;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1em;
 }
