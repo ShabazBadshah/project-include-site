@@ -3,8 +3,9 @@
 @import "colours";
 
 // Components
-@import "_includes/header-component.scss";
-@import "_includes/major-info-text-component.scss";
+@import "includes/header-component.scss";
+@import "includes/major-info-text-component.scss";
+@import "includes/gallery-intro-component.scss";
 
 * {
     font-family: "Roboto";
@@ -97,3 +98,12 @@ div.site {
     width: 68em;
     background-color: lightcyan;
 }
+
+@media (max-width:320px)  {}
+@media (max-width:801px)  {}
+
+@media (max-width:1000px) { 
+  div.site {
+    max-width: 90%;
+  }
+ }
