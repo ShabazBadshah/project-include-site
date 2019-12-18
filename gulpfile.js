@@ -44,6 +44,7 @@ gulp.task("sass", function() {
     .pipe(
       sass({
         includePaths: ["scss"],
+        outputStyle: "compressed",
         errLogToConsole: true
       })
     )
