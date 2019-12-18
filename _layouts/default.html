@@ -10,7 +10,9 @@
         <!-- Custom CSS -->
         <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
         <script type="text/javascript" src="{{site.baseurl}}/jquery-3.4.1.min.js" defer></script>
-        <script type="text/javascript" src="{{site.baseurl}}/js/_includes/header-component.js" defer></script>
+
+        <script type="text/javascript" src="{{site.baseurl}}/js/includes/header-component.js" defer></script>
+        <script type="text/javascript" src="{{site.baseurl}}/js/includes/gallery-intro-component.js" defer></script>
  
     </head>
     <body>
@@ -24,12 +26,28 @@
           {% include header.html %}
 
           <div class="fixed-header-pushdown">
-            {% include major-info-text-component.html
-               
-              header-text="Welcome to the future."
 
-              text="The technology sector is booming, and its expansion brings with it many new career paths. Unfortunately, children in underprivileged neighbourhoods often lack the basic STEM education to gain entry into these fields. We believe that every child deserves a shot at these job opportunities. Our student-run workshops and bootcamps run through local libraries and schools, bringing accessible coding education to more kids across the Greater Toronto Area." %}
+            {% include gallery-intro-component.html
+              
+              default-img-path="../assets/gallery/homepage/1.png"
+
+              header-text="We are Project Include."
+
+              info-text="We make coding fun and accessible for everyone, regardless of socio-economic class, race, or age."
+
+              btn1-text="Our Programs"
+              btn1-link="/"
+
+              btn2-text="Volunteer"
+              btn2-link="/" %}
+
           </div>
+          
+          {% include major-info-text-component.html
+             
+            header-text="Welcome to the future."
+
+            text="The technology sector is booming, and its expansion brings with it many new career paths. Unfortunately, children in underprivileged neighbourhoods often lack the basic STEM education to gain entry into these fields. We believe that every child deserves a shot at these job opportunities. Our student-run workshops and bootcamps run through local libraries and schools, bringing accessible coding education to more kids across the Greater Toronto Area." %}
 
           {{ content }}
 
