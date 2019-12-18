@@ -475,7 +475,8 @@ li#social-media-list-item {
   white-space: nowrap;
   font-weight: 300; }
   li#social-media-list-item a {
-    text-decoration: none; }
+    text-decoration: none;
+    color: black; }
     li#social-media-list-item a:visited, li#social-media-list-item a:hover {
       color: black; }
   li#social-media-list-item:last-child {
@@ -600,33 +601,24 @@ div.mobile-nav-container {
     padding: 12px 10px 9px 12px; } }
 
 div#major-info-text-container {
-  padding: 70px; }
+  margin: 30px 0; }
   div#major-info-text-container h1#major-info-text-container--header {
     font-size: 2.5em;
-    font-weight: 500; }
+    font-weight: 500;
+    text-align: left;
+    line-height: 1em; }
   div#major-info-text-container p#major-info-text-container--info {
     font-style: italic;
     font-weight: normal;
     font-size: 1.2em;
-    line-height: 1.4em; }
-
-div#major-info-text-container {
-  padding: 70px; }
-  div#major-info-text-container h1#major-info-text-container--header {
-    font-size: 2.5em;
-    font-weight: 500; }
-  div#major-info-text-container p#major-info-text-container--info {
-    font-style: italic;
-    font-weight: normal;
-    font-size: 1.2em;
-    line-height: 1.4em; }
+    line-height: 1.4em;
+    text-align: left; }
 
 div.intro-container {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: row;
-      flex-direction: row;
-  padding: 0 25px; }
+      flex-direction: row; }
 
 div.intro-container--info-container {
   width: 50%;
@@ -695,7 +687,8 @@ div.intro-container--gallery-container {
         flex-direction: column-reverse; }
   div.intro-container--info-container {
     width: 100%;
-    padding-right: 0; }
+    padding-right: 0;
+    padding: 40px 0; }
     div.intro-container--info-container p.intro-container--info-container--info-text {
       width: 75%;
       text-align: left;
@@ -706,7 +699,7 @@ div.intro-container--gallery-container {
     div.intro-container--gallery-container img.intro-container--gallery-container--gallery {
       width: 100%;
       object-fit: cover;
-      max-height: 250px;
+      max-height: 350px;
       object-position: top center; } }
 
 @media (max-width: 426px) {
@@ -808,4 +801,7 @@ div.site {
 
 @media (max-width: 1000px) {
   div.site {
-    max-width: 90%; } }
+    max-width: 95%;
+    margin: 15px; }
+  div.fixed-header-pushdown {
+    margin-top: 90px; } }

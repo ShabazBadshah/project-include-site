@@ -1,9 +1,12 @@
 div#major-info-text-container {
-  padding: 70px;
+  // padding: 70px;
+  margin: 30px 0;
 
   h1#major-info-text-container--header {
       font-size: 2.5em;
       font-weight: 500;
+      text-align: left;
+      line-height: 1em;
   }
 
   p#major-info-text-container--info {
@@ -11,21 +14,6 @@ div#major-info-text-container {
       font-weight: normal;
       font-size: 1.2em;
       line-height: 1.4em;
-  }
-}
-
-div#major-info-text-container {
-  padding: 70px;
-
-  h1#major-info-text-container--header {
-      font-size: 2.5em;
-      font-weight: 500;
-  }
-
-  p#major-info-text-container--info {
-      font-style: italic;
-      font-weight: normal;
-      font-size: 1.2em;
-      line-height: 1.4em;
+      text-align: left;
   }
 }

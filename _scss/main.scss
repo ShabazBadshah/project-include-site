@@ -104,6 +104,11 @@ div.site {
 
 @media (max-width:1000px) { 
   div.site {
-    max-width: 90%;
+    max-width: 95%;
+    margin: 15px;
+  }
+
+  div.fixed-header-pushdown {
+    margin-top: 90px;
   }
  }
