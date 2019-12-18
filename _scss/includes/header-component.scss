@@ -74,9 +74,14 @@ li#social-media-list-item {
       text-decoration: none;
       color: black;
 
-      &:visited, &:hover {
+      &:visited {
           color: black;
-      } 
+      }
+
+      &:hover {
+        color: $project-include-salmon-red;
+        transition: all 0.15s linear;
+      }
   }
 
   &:last-child {
@@ -89,6 +94,20 @@ ul#nav-list {
   display: flex;
   flex-direction: row;
   margin-bottom: 10px;
+
+  a {
+    text-decoration: none;
+    color: black;
+
+    &:visited {
+        color: black;
+    }
+
+    &:hover {
+      color: $project-include-salmon-red;
+      transition: all 0.15s linear;
+    }
+  }
 }
 
 li#nav-list-item {
