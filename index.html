@@ -3,11 +3,28 @@ layout: default
 title: Project Include | Home
 ---
 
-<div id="home">
-  <!-- <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul> -->
+<div class="fixed-header-pushdown">
+
+  {% include gallery-intro-component.html
+    
+    default-img-path="../assets/gallery/homepage/1.png"
+
+    header-text="We are Project Include."
+
+    info-text="We make coding fun and accessible for everyone, regardless of socio-economic class, race, or age."
+
+    btn1-text="Our Programs"
+    btn1-link="/"
+
+    btn2-text="Volunteer"
+    btn2-link="/" %}
+
 </div>
+
+{% include major-info-text-component.html
+   
+  header-text="Welcome to the future."
+
+  text="The technology sector is booming, and its expansion brings with it many new career paths. Unfortunately, children in underprivileged neighbourhoods often lack the basic STEM education to gain entry into these fields. We believe that every child deserves a shot at these job opportunities. Our student-run workshops and bootcamps run through local libraries and schools, bringing accessible coding education to more kids across the Greater Toronto Area." %}
+
+{% include quote-card-component.html %}
