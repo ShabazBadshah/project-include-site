@@ -1,14 +1,7 @@
+
 div#major-info-text-container {
-  // padding: 70px;
-  margin: 30px 0;
-
-  h1#major-info-text-container--header {
-      font-size: 2.5em;
-      font-weight: 500;
-      text-align: left;
-      line-height: 1em;
-  }
-
+  margin: 40px 0;
+  
   p#major-info-text-container--info {
       font-style: italic;
       font-weight: normal;
@@ -16,4 +9,12 @@ div#major-info-text-container {
       line-height: 1.4em;
       text-align: left;
   }
+}
+
+// TODO Common element, move out
+h1#major-info-text-container--header {
+  font-size: 2.5em;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1em;
 }

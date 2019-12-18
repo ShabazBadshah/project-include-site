@@ -1,0 +1,76 @@
+.quotations-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 30px;
+
+  h1#major-info-text-container--header {
+    align-self: flex-start;
+  }
+}
+
+.quotation-cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.quote-card-container {
+  max-width: 200px;
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.2);
+  min-height: 400px;
+
+  .quote-individual-container {
+
+    h3.quoter-name {
+      color: black;
+      text-align: center;
+      font-size: 1.3em;
+      margin: 10px;
+    }
+
+    .quote-image-container {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 30px;
+    
+      img.quote-image {
+        display: block;
+        margin: 0 auto;
+        border-radius: 50%;
+        width: 80%;
+        object-fit: cover;
+        object-position: center center;
+      }    
+    }
+  }
+
+  p.quote-text {
+    text-align: center;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: lighter;
+    color: black;
+    margin: 10px auto 0 auto;
+  }
+}
+
+
+@media (max-width:320px)  {}
+@media (max-width:801px)  {
+  .quote-card-container {
+    padding: 20px; 
+  }
+}
+@media (max-width:1000px) {}

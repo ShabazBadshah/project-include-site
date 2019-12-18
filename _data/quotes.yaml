@@ -1,0 +1,12 @@
+quote1:
+  name: "Chelsea"
+  image: "1.jpg"
+  quote: "When you see kids learn, there's that \"light bulb\" moment when they understand the material. It's really rewarding and makes all the preparation and planning worth it."
+quote2:
+  name: "Anikeith"
+  image: "2.jpg"
+  quote: "My favourite part of being an instructor was watching the kids create a program in Python all by themselves and show it off to other kids in the class."
+quote3:
+  name: "Shehzad"
+  image: "3.jpg"
+  quote: "My favorite part was seeing the kids take what I had taught them and help other kids in the class who were stuck. It showed me that they were getting it."

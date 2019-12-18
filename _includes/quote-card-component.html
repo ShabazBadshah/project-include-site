@@ -1,0 +1,22 @@
+<!-- TODO Extract quotation to its own page instead of a component -->
+
+<div class="quotations-container">
+
+  <h1 id="major-info-text-container--header">Meet some of our instructors.</h1>
+
+  <div class="quotation-cards-container">
+    {% for quotation in site.data.quotes %}
+      <div class="quote-card-container">
+  
+        <div class="quote-individual-container">
+          <div class="quote-image-container">
+            <img src="{{site.baserurl}}/assets/gallery/quoters/{{quotation[1].image}}" alt="" class="quote-image">
+          </div>
+          <h3 class="quoter-name"> {{ quotation[1].name }} </h3>
+        </div>
+  
+        <p class="quote-text"> "{{ quotation[1].quote }}" </p>
+      </div>    
+    {% endfor %}
+  </div>
+</div>

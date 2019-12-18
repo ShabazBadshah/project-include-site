@@ -601,18 +601,19 @@ div.mobile-nav-container {
     padding: 12px 10px 9px 12px; } }
 
 div#major-info-text-container {
-  margin: 30px 0; }
-  div#major-info-text-container h1#major-info-text-container--header {
-    font-size: 2.5em;
-    font-weight: 500;
-    text-align: left;
-    line-height: 1em; }
+  margin: 40px 0; }
   div#major-info-text-container p#major-info-text-container--info {
     font-style: italic;
     font-weight: normal;
     font-size: 1.2em;
     line-height: 1.4em;
     text-align: left; }
+
+h1#major-info-text-container--header {
+  font-size: 2.5em;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1em; }
 
 div.intro-container {
   display: -ms-flexbox;
@@ -723,6 +724,75 @@ div.intro-container--gallery-container {
       width: 100%;
       text-align: center;
       margin: 40px 0 50px 0; } }
+
+.quotations-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 100%;
+  margin: 30px; }
+  .quotations-container h1#major-info-text-container--header {
+    -ms-flex-item-align: start;
+        align-self: flex-start; }
+
+.quotation-cards-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.quote-card-container {
+  max-width: 200px;
+  background-color: white;
+  padding: 30px;
+  margin: 20px;
+  border-radius: 8px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.2);
+  min-height: 400px; }
+  .quote-card-container .quote-individual-container h3.quoter-name {
+    color: black;
+    text-align: center;
+    font-size: 1.3em;
+    margin: 10px; }
+  .quote-card-container .quote-individual-container .quote-image-container {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 30px; }
+    .quote-card-container .quote-individual-container .quote-image-container img.quote-image {
+      display: block;
+      margin: 0 auto;
+      border-radius: 50%;
+      width: 80%;
+      object-fit: cover;
+      object-position: center center; }
+  .quote-card-container p.quote-text {
+    text-align: center;
+    font-size: 1.1em;
+    font-style: italic;
+    font-weight: lighter;
+    color: black;
+    margin: 10px auto 0 auto; }
+
+@media (max-width: 801px) {
+  .quote-card-container {
+    padding: 20px; } }
 
 * {
   font-family: "Roboto";
