@@ -1,9 +1,10 @@
 const HEADER_COMPONENT_TRANSITION_MS = 250;
+const hamburgerMenuIcon = $("#hamburger-menu-icon");
 
 $(document).ready(function() {
   let isOpen = true;
 
-  $("#hamburger-menu-icon").click(function() {
+  hamburgerMenuIcon.click(function() {
     isOpen = !isOpen;
     if (!isOpen) {
       $(".mobile-nav-bar > #social-nav-list-container").show(

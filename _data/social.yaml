@@ -1,14 +1,18 @@
 # List of all social media accounts
 facebook:
+  name: "Facebook"
   link: "https://www.facebook.com/hashtagprojectinclude/"
   handle: "hashtagprojectinclude"
 twitter:
+  name: "Twitter"
   link: "https://twitter.com/hashtag_include"
   handle: "@hashtag_include"
 instagram:
+  name: "Instagram"
   link: "https://www.instagram.com/hashtag_include/"
   handle: "hashtag_include"
 email:
+  name: "Email"
   link: "include.skule@gmail.com"
   handle: "Project Include"
   

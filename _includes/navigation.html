@@ -1,0 +1,17 @@
+<div id="social-nav-list-container">
+  <ul id="nav-list">
+    {% for nav-link in site.data.navigation %}
+      <li id="nav-list-item">
+        <a href="{{nav-link[1].link}}">{{ nav-link[1].name }}</a>
+      </li>
+    {% endfor %}
+  </ul> 
+
+  <ul id="social-media-list">
+    {% for social-link in site.data.social %}
+      <li id="social-media-list-item">
+        <a target="_blank" rel="noopener noreferrer" href="{{social-link[1].link}}">{{ social-link[1].name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
