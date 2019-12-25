@@ -2,6 +2,9 @@
 @import "syntax";
 @import "colours";
 
+// Common CSS styles
+@import "common.scss";
+
 // Components
 @import "includes/header-component.scss";
 @import "includes/major-info-text-component.scss";
