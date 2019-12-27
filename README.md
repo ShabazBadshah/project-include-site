@@ -1,4 +1,4 @@
-![pi-logo](./assets/pi-logo-with-name.jpeg)
+![pi-logo](./assets/pi-logo-with-name.png)
 
 # Project Include Site 2019/2020 
 
