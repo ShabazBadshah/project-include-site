@@ -129,9 +129,8 @@ a.btn-red {
   }
 }
 
-@media (max-width:426px)  { 
+@media (max-width:500px)  { 
   a.btn-red {
     max-width: none;
-    // width: 100%;
   }
 }
