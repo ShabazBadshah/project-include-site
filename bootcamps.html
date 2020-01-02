@@ -1,0 +1,38 @@
+---
+layout: default
+title: Project Include | Bootcamps
+---
+
+<div class="fixed-header-pushdown">
+
+  {% include gallery-intro-component.html
+    
+    default-img-path="../assets/gallery/homepage/1.png"
+
+    header-text="Bootcamps."
+
+    info-text="Quis commodo pariatur Lorem sit sit pariatur. Culpa quis dolore duis est. Enim anim aliqua sit quis aliquip nisi pariatur mollit sit. Nostrud irure magna nisi sit voluptate quis."
+
+    btn1-text="Volunteer"
+    btn1-link="https://goo.gl/forms/lFxMOM0XlL5six5C2" %}
+
+</div>
+
+
+<div class="container align-column">
+  <h1 class="container-title">Schedule 2019/2020.</h1>
+  <div class="schedule-container">
+    {% assign sorted-bootcamps = site.data.bootcamp-schedule | group_by: "bootcamp-date" | sort: "name" | reverse %}
+    {% for bootcamp in sorted-bootcamps %}
+      <div class="card">
+        <h2 class="location-name color-project-include-salmon-red">{{ bootcamp["items"][0]["location-name"] }}</h2>
+        <h2 class="event-date">{{ bootcamp["items"][0]["bootcamp-date"] | date: "%A %B %-d, %Y" }}</h2>
+        <h2 class="event-time">{{ bootcamp["items"][0]["bootcamp-time"] }}</h2>
+        <div class="align-row location-container flex-center">
+          <img class="map-link-img" src="{{ site.baseurl }}/assets/google-maps-location-placeholder.png" alt="">
+          <a href="{{ bootcapm["items"][0]["bootcamp.location-google-maps-link"] }}" class="btn-red">Location</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
