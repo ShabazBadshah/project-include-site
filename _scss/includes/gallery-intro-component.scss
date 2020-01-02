@@ -47,12 +47,17 @@ div.intro-container--info-container {
           border: 2px solid white;
           transition: all 0.25s;
           text-align: center;
+          flex-grow: 1;
   
           &:hover {
               cursor: pointer;
               background-color: white;
               color: $project-include-salmon-red;
               transition: all 0.25s;
+          }
+
+          &:last-child {
+            margin-right: 0;
           }
       }
   }

@@ -1,3 +1,62 @@
-.services-container {
-  // background-color: orange;
+.schedule-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.schedule-container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h2.location-name {
+  font-size: 1.3em;
+  font-weight: 500;
+  text-align: left;
+  line-height: 1.1em;
+  margin-bottom: 15px;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+h2.event-date, h2.event-time {
+  color: black;
+  font-size: 1.1em;
+  font-weight: normal;
+  margin-bottom: 2px;
+}
+
+h2.event-time {
+  margin-bottom: 0;
+}
+
+img.map-link-img {
+  max-height: 35px;
+  margin-right: 20px;
+}
+
+.location-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.location-container a.btn-red {
+  height: 0;
+  max-width: none;;
+  font-size: 1em;
+  padding: 2px 8px;
+  flex-grow: 1;
+}
+
+@media (max-width:1000px)  { 
+  .schedule-container {
+    grid-template-columns: repeat(2, 1fr);
+  } 
+}
+
+@media (max-width:500px)  { 
+  .schedule-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
