@@ -2,11 +2,8 @@ link1:
   name: "What we do"
   link: "./services.html"
 link2:
-  name: "Who we are"
-  link: ""
-link3:
   name: "Where we go"
   link: ""
-link4:
+link3:
   name: "Our network"
   link: ""
