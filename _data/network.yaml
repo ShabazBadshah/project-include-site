@@ -1,0 +1,16 @@
+-
+  name: "Google"
+  image: "google-logo.png"
+  link: "https://google.ca"
+-
+  name: "University of Toronto"
+  image: "uoft-logo.png"
+  link: "https://www.utoronto.ca/"
+-
+  name: "Toronto Libraries"
+  image: "toronto-libraries-logo.png"
+  link: "https://www.torontopubliclibrary.ca/"
+-
+  name: "Lighthouse Labs"
+  image: "lighthouse-labs-logo.jpeg"
+  link: "https://www.lighthouselabs.ca/"

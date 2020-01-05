@@ -1,0 +1,19 @@
+<!-- TODO Extract quotation to its own page instead of a component -->
+
+<div class="quotations-container">
+  <div class="quotation-cards-container">
+    {% for quotation in site.data.network %}
+      <a class="network-link" href="{{ quotation["link"] }}">
+        <div class="network-card-container">
+          <div class="network-individual-container">
+            <div class="quote-image-container">
+              <img src="{{site.baserurl}}/assets/gallery/network/{{quotation["image"]}}" alt="" class="quote-image">
+            </div>
+            
+              <h3 class="quoter-name"> {{ quotation["name"] }} </h3>
+            </div>
+        </div>    
+      </a>
+    {% endfor %}
+  </div>
+</div>

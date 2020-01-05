@@ -1,0 +1,18 @@
+<div class="text-intro-container">
+  <div class="intro-container--info-container">
+    <h1 class="intro-container--info-container--header-text">{{ include.header-text }}</h1>
+    <p class="intro-container--info-container--info-text">{{ include.info-text }}</p>
+    
+    <div class="btn-wrap">
+
+      {% if include.btn1-text %}
+        <a href="{{ include.btn1-link }}" class="intro-container--info-container--btn">{{ include.btn1-text }}</a>
+      {% endif %}
+
+      {% if include.btn2-text %}
+        <a href="{{ include.btn2-link }}" class="intro-container--info-container--btn">{{ include.btn2-text }}</a>
+      {% endif %}
+    </div>
+
+  </div>
+</div>
