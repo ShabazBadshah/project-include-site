@@ -4,7 +4,8 @@ title: Project Include | Home
 ---
 
 <div class="fixed-header-pushdown">
-
+  
+  {% assign volunteer-form-link = site.data.basic["volunteer-form-link"] %}
   {% include gallery-intro-component.html
     
     default-img-path="../assets/gallery/homepage/1.png"
@@ -17,7 +18,7 @@ title: Project Include | Home
     btn1-link="./services"
 
     btn2-text="Volunteer"
-    btn2-link="https://goo.gl/forms/lFxMOM0XlL5six5C2" %}
+    btn2-link=volunteer-form-link %}
 
 </div>
 
