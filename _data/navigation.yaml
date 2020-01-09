@@ -1,9 +1,9 @@
 link1:
   name: "What we do"
-  link: "./services.html"
+  permalink: "/services"
 link2:
   name: "Where we go"
-  link: ""
+  permalink: "/map"
 link3:
   name: "Our network"
-  link: "./network.html"
+  permalink: "/network"
