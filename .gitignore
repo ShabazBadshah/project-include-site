@@ -60,7 +60,9 @@ typings/
 # next.js build output
 .next
 
+# Custom Gitignore 
 .jekyll-cache/
 _site/
 .sass-cache/
 .jekyll-metadata
+.DS_Store
