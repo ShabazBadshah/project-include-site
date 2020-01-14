@@ -2,8 +2,3 @@ name: Project Include
 markdown: kramdown
 highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json", "docs"]
-
-# If you are serving to gh-pages, change baseurl to repository name with a / prepended
-# i.e.  /PersonalWebsite from ""
-# During development change baseurl to ""
-baseurl: ""

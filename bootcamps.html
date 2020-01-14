@@ -9,7 +9,7 @@ permalink: /bootcamps/
   {% assign volunteer-form-link = site.data.basic["volunteer-form-link"] %}
   {% include gallery-intro-component.html
     
-    default-img-path="../assets/gallery/homepage/1.png"
+    default-img-path="/assets/gallery/homepage/1.png"
 
     header-text="Bootcamps."
 
@@ -31,7 +31,7 @@ permalink: /bootcamps/
         <h2 class="event-date">{{ bootcamp["items"][0]["bootcamp-date"] | date: "%A %B %-d, %Y" }}</h2>
         <h2 class="event-time">{{ bootcamp["items"][0]["bootcamp-time"] }}</h2>
         <div class="align-row location-container flex-center">
-          <img class="map-link-img" src="{{ site.baseurl }}/assets/google-maps-location-placeholder.png" alt="">
+          <img class="map-link-img" src="./assets/google-maps-location-placeholder.png" alt="">
           <a href="{{ bootcapm["items"][0]["bootcamp.location-google-maps-link"] }}" class="btn-red">Location</a>
         </div>
       </div>
