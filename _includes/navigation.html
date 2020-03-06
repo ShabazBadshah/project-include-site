@@ -2,7 +2,7 @@
   <ul id="nav-list">
     {% for nav-link in site.data.navigation %}
       <li id="nav-list-item">
-        <a href="{{nav-link[1].permalink}}">{{ nav-link[1].name }}</a>
+        <a href="{{site.baseurl}}/{{nav-link[1].permalink}}">{{ nav-link[1].name }}</a>
       </li>
     {% endfor %}
   </ul> 

@@ -1,4 +1,4 @@
-const ROOT_IMG_DIR = "/assets/gallery/homepage/";
+const ROOT_IMG_DIR = "../assets/gallery/homepage/";
 const TRANSITION_DELAY_MS = 2000;
 
 var galleryItem;
