@@ -1,4 +1,5 @@
-- location-name: South Common Public Library
+---
+- location-name: Test Location 2
   location-google-maps-link: https://goo.gl/maps/1y4d37DjYZHz4AA49
   bootcamp-time: 9:00AM - 4:00PM EST
   bootcamp-date: 2017-01-01
