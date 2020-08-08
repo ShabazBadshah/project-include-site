@@ -1,4 +1,8 @@
 ---
+- location-name: Location 1
+  location-google-maps-link: fefa
+  bootcamp-time: fefefaf
+  bootcamp-date: 
 - location-name: Test Location 2
   location-google-maps-link: https://goo.gl/maps/1y4d37DjYZHz4AA49
   bootcamp-time: 9:00AM - 4:00PM EST
