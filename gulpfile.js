@@ -33,7 +33,6 @@ function jekyll_scss() {
     .pipe(plumber())
     .pipe(
       sass({
-        includePaths: ["scss"],
         outputStyle: "compressed",
       })
     )
@@ -52,7 +51,7 @@ function browser_sync() {
       baseDir: "_site",
     },
   });
-  watch("_scss/*.scss", series(jekyll_scss, jekyll_build));
+  watch("_scss/**/*.scss", series(jekyll_scss, jekyll_build));
   watch("_javascript/*", series(jekyll_js, jekyll_build));
   watch(
     ["*.html", "_layouts/*.html", "_includes/*.html", "_posts/*"],
