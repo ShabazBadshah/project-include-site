@@ -4,6 +4,6 @@ link1:
 link2:
   name: "Where we go"
   permalink: "/map"
-# link3:
-#   name: "Our network"
-#   permalink: "/network"
+link3:
+  name: "Our network"
+  permalink: "/network"
