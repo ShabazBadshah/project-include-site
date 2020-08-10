@@ -2,3 +2,5 @@ name: Project Include
 markdown: kramdown
 highlighter: rouge # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json", "docs"]
+# If deploying to master, baseurl: "{name of repo}", if local deployment, baseurl: ""
+baseurl: ""
