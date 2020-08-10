@@ -1,0 +1,30 @@
+{
+  "name": "project-include-site",
+  "version": "2.0.0",
+  "description": "The official Project Include site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shabaz Badshah",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^1.3.7",
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "1.0.0",
+    "gulp-sass": "^2.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShabazBadshah/project-include-site"
+  },
+  "keywords": [
+    "Project Include",
+    "hashtaginclude",
+    "hashtag_include"
+  ],
+  "bugs": {
+    "url": "https://github.com/ShabazBadshah/project-include-site/issues"
+  },
+  "homepage": "https://github.com/ShabazBadshah/project-include-site"
+}
