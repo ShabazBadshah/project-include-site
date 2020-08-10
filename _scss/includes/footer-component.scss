@@ -1,0 +1,27 @@
+ul#social-media-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 30px auto 35px auto;
+}
+
+li.social-media-list-item {
+  height: inherit;
+  margin: auto 10px;
+  transition: all 100ms ease-in-out;
+
+  &:hover {
+    transition: all 100ms ease-in-out;
+    transform: scale(1.2);
+  }
+}
+
+img.social-media-link-icon {
+  width: auto;
+  height: 40px;
+}
+
+@media (max-width:801px)  {}
+
+@media (max-width:1000px) {}
