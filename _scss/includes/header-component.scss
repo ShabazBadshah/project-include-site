@@ -90,7 +90,7 @@ li#nav-list-item {
       height: 3px;
       background-color: $project-include-salmon-red;
       display: block;
-      margin: 8px auto;
+      margin: 7px auto;
       transition: all 0.2s ease-in-out;
     }
 
@@ -100,11 +100,11 @@ li#nav-list-item {
     &.is-active .line:nth-child(3) { width: 20px; }
 
     &.is-active .line:nth-child(1){
-      transform: translateX(10px) translateY(5px) rotate(45deg);
+      transform: translateX(11px) translateY(4px) rotate(45deg);
     }
 
     &.is-active .line:nth-child(3){
-      transform: translateX(10px) translateY(-5px) rotate(-45deg);
+      transform: translateX(11px) translateY(-3px) rotate(-45deg);
     }
   }
 
@@ -148,5 +148,5 @@ li#nav-list-item {
 
 @media (max-width:321px)  { 
   .mobile-nav-bar { padding-right: 8px; }
-  #header-container { padding: 12px 10px 10px 12px; }
+  #header-container { padding: 10px 10px 9px 12px; }
 }
